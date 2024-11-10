@@ -194,4 +194,14 @@ input:hover{
 animation-duration: 1.3s;
 }
 
-/* details page */
+/* about page */
+
+@media(max-width: 768px) {
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    
+    }    
+    }

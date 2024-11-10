@@ -10,15 +10,17 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <div class="container my-5 text-center mx-auto">
-        <h1 class="text-center display-2">OUR MISSION</h1>
+    <div class="container my-5 text-center mx-auto animate__animated  animate__pulse">
+        <h1 class="text-center display-2 ">OUR MISSION</h1>
         <br>
         <br>
-        <div class="row g-4 text-center text-center text-light ">
+        <div class="row g-4 text-center text-center text-light animate__animated  animate__fadeInLeft" id="about">
             <div class="col-sm-4 col-md-8 px-5" id="section-Ab">
 
                 <h3 class="mt-3 ">
