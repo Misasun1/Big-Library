@@ -33,7 +33,10 @@ if (isset($_GET['publisher'])) {
     </div>";
         }
     } else {
-        $layout = "<p class= 'text-center'>Sorry, no media found </p>";
+        $layout = "
+        <div class = 'my-5 text-light display-6 mx-auto'>
+        <p> No media found </p> 
+        </div>";
     }
 } else {
     echo  "Something went wrong, try later";

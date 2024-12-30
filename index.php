@@ -104,9 +104,9 @@ if (mysqli_num_rows($result) > 0) {
 
 
             <form method="GET" action="search.php">
-                <input type="text" placeholder="Search by title or author" name="search_box" class="rounded-4 border-light">
+                <input type="text" placeholder="Search by title or author" name="search_box" class="rounded-4 border-light px-2 py-1" id="searchBox">
 
-                <input type="submit" class="btn border-light bg-gradient text-light" name="search" value="Search">
+                <input type="submit" class="btn border-light bg-gradient text-light " name="search" value="Search">
                 <i class="fa-solid fa-magnifying-glass text-light"></i>
             </form>
         </div>

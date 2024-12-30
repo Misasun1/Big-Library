@@ -190,11 +190,14 @@ input:hover{
 
 /* welcome page */
 .formWelc {
-
+  margin: auto;
+width: 50%;
 animation-duration: 1.3s;
 }
 
+
 /* about page */
+
 
 @media(max-width: 768px) {
     #about{
@@ -205,3 +208,5 @@ animation-duration: 1.3s;
     
     }    
     }
+
+   

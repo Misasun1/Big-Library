@@ -38,7 +38,10 @@ if (isset($_GET['search'])) {
         </div>";
         }
     } else {
-        $displaySearch = "<p class= 'text-center'>Sorry, no media found </p>";
+        $displaySearch = "
+         <div class = 'my-5 text-light display-6 mx-auto'>
+        <p> No media found </p> 
+        </div>";
     }
 }
 ?>
