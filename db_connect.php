@@ -1,10 +1,10 @@
 <?php
 
 try {
-    $host = 'localhost';
-    $user = 'root';
-    $password = "";
-    $database = 'be23_exam4_mariamisaowusu_biglibrary';
+    $host = '173.212.235.205';
+    $user = 'misacodefactory_root';
+    $password = "u+aY6ox;lMmH";
+    $database = 'misacodefactory_big_library';
 
     $connection = mysqli_connect(
         $host,
